@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */; };
+		D37955E02A1BD3CE00BC4C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */; };
+		D37955E22A1BD3CE00BC4C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955E12A1BD3CE00BC4C0C /* ViewController.swift */; };
+		D37955E52A1BD3CE00BC4C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37955E32A1BD3CE00BC4C0C /* Main.storyboard */; };
+		D37955E72A1BD3CF00BC4C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37955E62A1BD3CF00BC4C0C /* Assets.xcassets */; };
+		D37955EA2A1BD3D000BC4C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37955E82A1BD3CF00BC4C0C /* LaunchScreen.storyboard */; };
+		D37955F52A1BD3D000BC4C0C /* DemoZaloChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955F42A1BD3D000BC4C0C /* DemoZaloChatTests.swift */; };
+		D37955FF2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955FE2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift */; };
+		D37956012A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37955F12A1BD3D000BC4C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37955D22A1BD3CE00BC4C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37955D92A1BD3CE00BC4C0C;
+			remoteInfo = DemoZaloChat;
+		};
+		D37955FB2A1BD3D000BC4C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37955D22A1BD3CE00BC4C0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37955D92A1BD3CE00BC4C0C;
+			remoteInfo = DemoZaloChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D37955DA2A1BD3CE00BC4C0C /* DemoZaloChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoZaloChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D37955E12A1BD3CE00BC4C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D37955E42A1BD3CE00BC4C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37955E62A1BD3CF00BC4C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D37955E92A1BD3D000BC4C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D37955EB2A1BD3D000BC4C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37955F02A1BD3D000BC4C0C /* DemoZaloChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoZaloChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37955F42A1BD3D000BC4C0C /* DemoZaloChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoZaloChatTests.swift; sourceTree = "<group>"; };
+		D37955FA2A1BD3D000BC4C0C /* DemoZaloChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoZaloChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37955FE2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoZaloChatUITests.swift; sourceTree = "<group>"; };
+		D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoZaloChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37955D72A1BD3CE00BC4C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955ED2A1BD3D000BC4C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955F72A1BD3D000BC4C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37955D12A1BD3CE00BC4C0C = {
+			isa = PBXGroup;
+			children = (
+				D37955DC2A1BD3CE00BC4C0C /* DemoZaloChat */,
+				D37955F32A1BD3D000BC4C0C /* DemoZaloChatTests */,
+				D37955FD2A1BD3D000BC4C0C /* DemoZaloChatUITests */,
+				D37955DB2A1BD3CE00BC4C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D37955DB2A1BD3CE00BC4C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37955DA2A1BD3CE00BC4C0C /* DemoZaloChat.app */,
+				D37955F02A1BD3D000BC4C0C /* DemoZaloChatTests.xctest */,
+				D37955FA2A1BD3D000BC4C0C /* DemoZaloChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37955DC2A1BD3CE00BC4C0C /* DemoZaloChat */ = {
+			isa = PBXGroup;
+			children = (
+				D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */,
+				D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */,
+				D37955E12A1BD3CE00BC4C0C /* ViewController.swift */,
+				D37955E32A1BD3CE00BC4C0C /* Main.storyboard */,
+				D37955E62A1BD3CF00BC4C0C /* Assets.xcassets */,
+				D37955E82A1BD3CF00BC4C0C /* LaunchScreen.storyboard */,
+				D37955EB2A1BD3D000BC4C0C /* Info.plist */,
+			);
+			path = DemoZaloChat;
+			sourceTree = "<group>";
+		};
+		D37955F32A1BD3D000BC4C0C /* DemoZaloChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37955F42A1BD3D000BC4C0C /* DemoZaloChatTests.swift */,
+			);
+			path = DemoZaloChatTests;
+			sourceTree = "<group>";
+		};
+		D37955FD2A1BD3D000BC4C0C /* DemoZaloChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D37955FE2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift */,
+				D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */,
+			);
+			path = DemoZaloChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37955D92A1BD3CE00BC4C0C /* DemoZaloChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37956042A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChat" */;
+			buildPhases = (
+				D37955D62A1BD3CE00BC4C0C /* Sources */,
+				D37955D72A1BD3CE00BC4C0C /* Frameworks */,
+				D37955D82A1BD3CE00BC4C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoZaloChat;
+			productName = DemoZaloChat;
+			productReference = D37955DA2A1BD3CE00BC4C0C /* DemoZaloChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37955EF2A1BD3D000BC4C0C /* DemoZaloChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37956072A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChatTests" */;
+			buildPhases = (
+				D37955EC2A1BD3D000BC4C0C /* Sources */,
+				D37955ED2A1BD3D000BC4C0C /* Frameworks */,
+				D37955EE2A1BD3D000BC4C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37955F22A1BD3D000BC4C0C /* PBXTargetDependency */,
+			);
+			name = DemoZaloChatTests;
+			productName = DemoZaloChatTests;
+			productReference = D37955F02A1BD3D000BC4C0C /* DemoZaloChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D37955F92A1BD3D000BC4C0C /* DemoZaloChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D379560A2A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChatUITests" */;
+			buildPhases = (
+				D37955F62A1BD3D000BC4C0C /* Sources */,
+				D37955F72A1BD3D000BC4C0C /* Frameworks */,
+				D37955F82A1BD3D000BC4C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37955FC2A1BD3D000BC4C0C /* PBXTargetDependency */,
+			);
+			name = DemoZaloChatUITests;
+			productName = DemoZaloChatUITests;
+			productReference = D37955FA2A1BD3D000BC4C0C /* DemoZaloChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37955D22A1BD3CE00BC4C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D37955D92A1BD3CE00BC4C0C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D37955EF2A1BD3D000BC4C0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D37955D92A1BD3CE00BC4C0C;
+					};
+					D37955F92A1BD3D000BC4C0C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D37955D92A1BD3CE00BC4C0C;
+					};
+				};
+			};
+			buildConfigurationList = D37955D52A1BD3CE00BC4C0C /* Build configuration list for PBXProject "DemoZaloChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37955D12A1BD3CE00BC4C0C;
+			productRefGroup = D37955DB2A1BD3CE00BC4C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37955D92A1BD3CE00BC4C0C /* DemoZaloChat */,
+				D37955EF2A1BD3D000BC4C0C /* DemoZaloChatTests */,
+				D37955F92A1BD3D000BC4C0C /* DemoZaloChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37955D82A1BD3CE00BC4C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37955EA2A1BD3D000BC4C0C /* LaunchScreen.storyboard in Resources */,
+				D37955E72A1BD3CF00BC4C0C /* Assets.xcassets in Resources */,
+				D37955E52A1BD3CE00BC4C0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955EE2A1BD3D000BC4C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955F82A1BD3D000BC4C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37955D62A1BD3CE00BC4C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37955E22A1BD3CE00BC4C0C /* ViewController.swift in Sources */,
+				D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */,
+				D37955E02A1BD3CE00BC4C0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955EC2A1BD3D000BC4C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37955F52A1BD3D000BC4C0C /* DemoZaloChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37955F62A1BD3D000BC4C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37955FF2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift in Sources */,
+				D37956012A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37955F22A1BD3D000BC4C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37955D92A1BD3CE00BC4C0C /* DemoZaloChat */;
+			targetProxy = D37955F12A1BD3D000BC4C0C /* PBXContainerItemProxy */;
+		};
+		D37955FC2A1BD3D000BC4C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37955D92A1BD3CE00BC4C0C /* DemoZaloChat */;
+			targetProxy = D37955FB2A1BD3D000BC4C0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37955E32A1BD3CE00BC4C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37955E42A1BD3CE00BC4C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37955E82A1BD3CF00BC4C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37955E92A1BD3D000BC4C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37956022A1BD3D000BC4C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D37956032A1BD3D000BC4C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37956052A1BD3D000BC4C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoZaloChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D37956062A1BD3D000BC4C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoZaloChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D37956082A1BD3D000BC4C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoZaloChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoZaloChat";
+			};
+			name = Debug;
+		};
+		D37956092A1BD3D000BC4C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoZaloChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoZaloChat";
+			};
+			name = Release;
+		};
+		D379560B2A1BD3D000BC4C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoZaloChat;
+			};
+			name = Debug;
+		};
+		D379560C2A1BD3D000BC4C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK7WSR9P6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanhuy.DemoZaloChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoZaloChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37955D52A1BD3CE00BC4C0C /* Build configuration list for PBXProject "DemoZaloChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37956022A1BD3D000BC4C0C /* Debug */,
+				D37956032A1BD3D000BC4C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37956042A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37956052A1BD3D000BC4C0C /* Debug */,
+				D37956062A1BD3D000BC4C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37956072A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37956082A1BD3D000BC4C0C /* Debug */,
+				D37956092A1BD3D000BC4C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D379560A2A1BD3D000BC4C0C /* Build configuration list for PBXNativeTarget "DemoZaloChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D379560B2A1BD3D000BC4C0C /* Debug */,
+				D379560C2A1BD3D000BC4C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37955D22A1BD3CE00BC4C0C /* Project object */;
+}
