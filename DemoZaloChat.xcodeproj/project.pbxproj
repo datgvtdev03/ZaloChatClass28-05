@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BA47A932A1FA96200490B11 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA47A922A1FA96200490B11 /* FriendsViewController.swift */; };
 		D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */; };
 		D37955E02A1BD3CE00BC4C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */; };
 		D37955E22A1BD3CE00BC4C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955E12A1BD3CE00BC4C0C /* ViewController.swift */; };
@@ -16,6 +17,11 @@
 		D37955F52A1BD3D000BC4C0C /* DemoZaloChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955F42A1BD3D000BC4C0C /* DemoZaloChatTests.swift */; };
 		D37955FF2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955FE2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift */; };
 		D37956012A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */; };
+		D379560F2A1BD3FE00BC4C0C /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D379560E2A1BD3FE00BC4C0C /* ConversationModel.swift */; };
+		D37956112A1BD5AE00BC4C0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956102A1BD5AE00BC4C0C /* User.swift */; };
+		D37956132A1BD61800BC4C0C /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956122A1BD61800BC4C0C /* MessageModel.swift */; };
+		D37956182A1BDC7300BC4C0C /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956172A1BDC7300BC4C0C /* ConversationViewController.swift */; };
+		D379561A2A1D116100BC4C0C /* ConversationMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37956192A1D116100BC4C0C /* ConversationMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9BA47A922A1FA96200490B11 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		D37955DA2A1BD3CE00BC4C0C /* DemoZaloChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoZaloChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		D37955FA2A1BD3D000BC4C0C /* DemoZaloChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoZaloChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37955FE2A1BD3D000BC4C0C /* DemoZaloChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoZaloChatUITests.swift; sourceTree = "<group>"; };
 		D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoZaloChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D379560E2A1BD3FE00BC4C0C /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		D37956102A1BD5AE00BC4C0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D37956122A1BD61800BC4C0C /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		D37956172A1BDC7300BC4C0C /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		D37956192A1D116100BC4C0C /* ConversationMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationMessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,8 @@
 		D37955DC2A1BD3CE00BC4C0C /* DemoZaloChat */ = {
 			isa = PBXGroup;
 			children = (
+				D37956142A1BD79700BC4C0C /* ViewControllers */,
+				D379560D2A1BD3DB00BC4C0C /* Model */,
 				D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */,
 				D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */,
 				D37955E12A1BD3CE00BC4C0C /* ViewController.swift */,
@@ -125,6 +139,26 @@
 				D37956002A1BD3D000BC4C0C /* DemoZaloChatUITestsLaunchTests.swift */,
 			);
 			path = DemoZaloChatUITests;
+			sourceTree = "<group>";
+		};
+		D379560D2A1BD3DB00BC4C0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D379560E2A1BD3FE00BC4C0C /* ConversationModel.swift */,
+				D37956102A1BD5AE00BC4C0C /* User.swift */,
+				D37956122A1BD61800BC4C0C /* MessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D37956142A1BD79700BC4C0C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D37956172A1BDC7300BC4C0C /* ConversationViewController.swift */,
+				D37956192A1D116100BC4C0C /* ConversationMessageViewController.swift */,
+				9BA47A922A1FA96200490B11 /* FriendsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +293,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D37955E22A1BD3CE00BC4C0C /* ViewController.swift in Sources */,
+				9BA47A932A1FA96200490B11 /* FriendsViewController.swift in Sources */,
+				D379561A2A1D116100BC4C0C /* ConversationMessageViewController.swift in Sources */,
+				D37956132A1BD61800BC4C0C /* MessageModel.swift in Sources */,
+				D37956182A1BDC7300BC4C0C /* ConversationViewController.swift in Sources */,
 				D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */,
+				D379560F2A1BD3FE00BC4C0C /* ConversationModel.swift in Sources */,
+				D37956112A1BD5AE00BC4C0C /* User.swift in Sources */,
 				D37955E02A1BD3CE00BC4C0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
