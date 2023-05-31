@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B29BAD32A25069200C2FBDE /* MessageByFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29BAD12A25069200C2FBDE /* MessageByFriendTableViewCell.swift */; };
+		9B29BAD42A25069200C2FBDE /* MessageByFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B29BAD22A25069200C2FBDE /* MessageByFriendTableViewCell.xib */; };
+		9B29BAD72A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29BAD52A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.swift */; };
+		9B29BAD82A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B29BAD62A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.xib */; };
+		9B29BADA2A251D2700C2FBDE /* UsersDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29BAD92A251D2700C2FBDE /* UsersDatabase.swift */; };
 		9BA47A932A1FA96200490B11 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA47A922A1FA96200490B11 /* FriendsViewController.swift */; };
 		D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */; };
 		D37955E02A1BD3CE00BC4C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37955DF2A1BD3CE00BC4C0C /* SceneDelegate.swift */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B29BAD12A25069200C2FBDE /* MessageByFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageByFriendTableViewCell.swift; sourceTree = "<group>"; };
+		9B29BAD22A25069200C2FBDE /* MessageByFriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageByFriendTableViewCell.xib; sourceTree = "<group>"; };
+		9B29BAD52A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageByLoggedInUserTableViewCell.swift; sourceTree = "<group>"; };
+		9B29BAD62A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageByLoggedInUserTableViewCell.xib; sourceTree = "<group>"; };
+		9B29BAD92A251D2700C2FBDE /* UsersDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDatabase.swift; sourceTree = "<group>"; };
 		9BA47A922A1FA96200490B11 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		D37955DA2A1BD3CE00BC4C0C /* DemoZaloChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoZaloChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37955DD2A1BD3CE00BC4C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +130,10 @@
 				D37955E62A1BD3CF00BC4C0C /* Assets.xcassets */,
 				D37955E82A1BD3CF00BC4C0C /* LaunchScreen.storyboard */,
 				D37955EB2A1BD3D000BC4C0C /* Info.plist */,
+				9B29BAD12A25069200C2FBDE /* MessageByFriendTableViewCell.swift */,
+				9B29BAD22A25069200C2FBDE /* MessageByFriendTableViewCell.xib */,
+				9B29BAD52A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.swift */,
+				9B29BAD62A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.xib */,
 			);
 			path = DemoZaloChat;
 			sourceTree = "<group>";
@@ -147,6 +161,7 @@
 				D379560E2A1BD3FE00BC4C0C /* ConversationModel.swift */,
 				D37956102A1BD5AE00BC4C0C /* User.swift */,
 				D37956122A1BD61800BC4C0C /* MessageModel.swift */,
+				9B29BAD92A251D2700C2FBDE /* UsersDatabase.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B29BAD82A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.xib in Resources */,
+				9B29BAD42A25069200C2FBDE /* MessageByFriendTableViewCell.xib in Resources */,
 				D37955EA2A1BD3D000BC4C0C /* LaunchScreen.storyboard in Resources */,
 				D37955E72A1BD3CF00BC4C0C /* Assets.xcassets in Resources */,
 				D37955E52A1BD3CE00BC4C0C /* Main.storyboard in Resources */,
@@ -292,9 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B29BAD72A2506DA00C2FBDE /* MessageByLoggedInUserTableViewCell.swift in Sources */,
 				D37955E22A1BD3CE00BC4C0C /* ViewController.swift in Sources */,
 				9BA47A932A1FA96200490B11 /* FriendsViewController.swift in Sources */,
+				9B29BAD32A25069200C2FBDE /* MessageByFriendTableViewCell.swift in Sources */,
 				D379561A2A1D116100BC4C0C /* ConversationMessageViewController.swift in Sources */,
+				9B29BADA2A251D2700C2FBDE /* UsersDatabase.swift in Sources */,
 				D37956132A1BD61800BC4C0C /* MessageModel.swift in Sources */,
 				D37956182A1BDC7300BC4C0C /* ConversationViewController.swift in Sources */,
 				D37955DE2A1BD3CE00BC4C0C /* AppDelegate.swift in Sources */,
