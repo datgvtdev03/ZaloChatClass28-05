@@ -14,17 +14,21 @@ class ConversationMessageViewController: UIViewController, UITableViewDelegate, 
     
     @IBOutlet weak var textViewMessage: UITextField!
     @IBOutlet weak var lblNameChat: UILabel!
-//    var conversationDetail: Conversation?
+   
     var messages: [Message] = []
     var userDatabaseObject  = UsersDatabase()
-//    let avtUsers = ["avt1", "avt2", "avt4"]
+    
+    var conversationName: String = ""
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tblMessages.dataSource = self
         tblMessages.delegate = self
         textViewMessage.delegate = self
-//        lblNameChat.text = conversationDetail?.name
+        
+        lblNameChat.text = conversationName
+        
         
         
         //        Đăng ký file Xib vừa tạo
@@ -57,6 +61,12 @@ class ConversationMessageViewController: UIViewController, UITableViewDelegate, 
 
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        messages.remove(at: indexPath.row)
+        tblMessages.reloadData()
+    }
+    
+    //ham nay bat su kien khi nhan nut enter
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         if textField == textViewMessage {
             sendChatMessage()

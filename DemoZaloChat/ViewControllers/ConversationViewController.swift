@@ -12,9 +12,12 @@ class ConversationViewController: UIViewController, UITableViewDelegate, UITable
     
 
     @IBOutlet weak var tblConversation: UITableView!
-
+    
+    
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     var conversation: [Conversation] = []
-    let avatars = ["avt1", "avt2", "avt4"] 
+    let avatars = ["avt2", "avt3", "avt6"]
     override func viewDidLoad() {
         super.viewDidLoad()
         initData()
@@ -52,7 +55,8 @@ class ConversationViewController: UIViewController, UITableViewDelegate, UITable
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let messagesConversationVC = self.storyboard?.instantiateViewController(withIdentifier: "ConversationMessageViewController") as! ConversationMessageViewController
         // khoi tao ra man hinh messagesConversationVC
-       
+//        hien thi ten cuoc hoi thoai
+        messagesConversationVC.conversationName = conversation[indexPath.row].name
         messagesConversationVC.messages = conversation[indexPath.row].messages
 
 //        // do du lieu mang messages cua man hinh messagesConversationVC = du lieu messages cua cuoc hoi thoai khi cham.(touch) vao
@@ -75,6 +79,8 @@ class ConversationViewController: UIViewController, UITableViewDelegate, UITable
         imageAvt.layer.cornerRadius = 30
         return cell
     }
+    
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
     }
